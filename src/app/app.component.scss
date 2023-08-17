@@ -1,0 +1,158 @@
+section{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 8px;
+
+}
+
+.sedans{
+  background-color: #df8634;
+  width: 450px;
+  height: 600px;
+
+
+  &:first-child{
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+
+  transition: .35s;
+  cursor: pointer;
+}
+
+.texto{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.texto img{
+  margin-top: 30px;
+}
+.texto h1{
+  margin-top: 40px;
+  color: white;
+  font-size: 50px;
+}
+.texto p{
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+
+.buttonsedans{
+  padding: 15px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 100px;
+  margin-top: 80px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.main:hover > :not(:hover){
+  opacity: .4;
+  transform: scale(0.9);
+}
+
+.suvs{
+  background-color: #006870;
+  width: 450px;
+  height: 600px;
+
+  transition: .35s;
+  cursor: pointer;
+}
+
+.texto2{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.texto2 img{
+  margin-top: 30px;
+}
+.texto2 h1{
+  margin-top: 40px;
+  color: white;
+  font-size: 50px;
+}
+.texto2 p{
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-family: Lato;
+
+}
+
+.buttonsuvs{
+  padding: 15px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 100px;
+  margin-top: 80px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+.luxury{
+  background-color: #003f3f;
+  width: 450px;
+  height: 600px;
+  transition: .35s;
+  cursor: pointer;
+
+  &:last-child{
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+}
+
+.texto3{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.texto3 img{
+  margin-top: 30px;
+}
+.texto3 h1{
+  margin-top: 40px;
+  color: white;
+  font-size: 50px;
+}
+.texto3 p{
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-family: Lato;
+}
+
+.buttonluxury{
+  padding: 15px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 100px;
+  margin-top: 80px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+
